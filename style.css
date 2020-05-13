@@ -1,0 +1,201 @@
+:root {
+    --url-siggy-adam-caster-986532: url(https://i.imgur.com/tbwWLyq.png);
+    --url-siput-1-adam-caster-986532: url(https://i.imgur.com/y6youPj.png);
+    --url-siput-2-adam-caster-986532: url(https://i.imgur.com/ynBME3k.png);
+    --url-siput-3-adam-caster-986532: url(https://i.imgur.com/yvUm2rn.png);
+    --url-siput-4-adam-caster-986532: url(https://i.imgur.com/hiCR4QY.png);
+    --url-siput-5-adam-caster-986532: url(https://i.imgur.com/Jbo9aXF.png);
+    --url-siput-1-evo-adam-caster-986532: url(https://i.imgur.com/pGiA0LL.png);
+    --url-siput-2-evo-adam-caster-986532: url(https://i.imgur.com/PG43x3k.png);
+    --url-siput-3-evo-adam-caster-986532: url(https://i.imgur.com/pun9VoD.png);
+    --url-siput-4-evo-adam-caster-986532: url(https://i.imgur.com/2ye0kIW.png);
+    --url-siput-5-evo-adam-caster-986532: url(https://i.imgur.com/Tbv3n9j.png);
+  }
+
+.area_siggy_adam_caster_986532{
+    width: 350px;
+    height: 150px;
+    float: left;
+    position: relative;
+    background-color: aquamarine;
+}
+
+#gambar_siggy_adam_caster_986532{
+    width: 350px;
+    height: 150px;
+    float: left;
+    background-image: var(--url-siggy-adam-caster-986532);
+}
+
+#text_peringatan_adam_caster_986532{
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    float: left;
+    align-content: center;
+    margin-top: 0px;
+}
+
+#text_peringatan_2_adam_caster_986532{
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    align-content: center;
+    float: left;
+    margin-top: 150px;
+    display: none;
+}
+
+#text_peringatan_3_adam_caster_986532{
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    align-content: center;
+    float: left;
+    margin-top: 150px;
+    display: none;
+}
+
+#gambar_sigil_adam_caster_986532{
+    top: 25px;
+    left:250px; 
+    opacity: 0;
+    float: right;
+    position: absolute;
+}
+
+#gambar_siggy_adam_caster_986532:hover > #gambar_sigil_adam_caster_986532{
+    z-index: 2;
+    animation-delay: 2s;
+    animation: sigil_muncul_adam_caster_986532 3s;
+    animation-fill-mode: both;
+}
+
+#gambar_siggy_adam_caster_986532:hover + #text_peringatan_adam_caster_986532{
+    display: none;
+}
+
+#gambar_siggy_adam_caster_986532:hover > #text_peringatan_2_adam_caster_986532{
+    display: inline;
+}
+
+#gambar_siggy_adam_caster_986532:hover > #gambar_sigil_adam_caster_986532:hover{
+    opacity: 0;
+    animation: sigil_hilang_adam_caster_986532 2s;
+    animation-fill-mode: both;
+}
+
+#area_balap_adam_caster_986532{
+    display:none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: inherit;
+    height:  inherit;
+}
+
+#gambar_siggy_adam_caster_986532:hover > #gambar_sigil_adam_caster_986532:hover ~ #text_peringatan_2_adam_caster_986532{
+    display: none;
+}
+
+#gambar_siggy_adam_caster_986532:hover > #gambar_sigil_adam_caster_986532:hover ~ #text_peringatan_3_adam_caster_986532{
+    display: inline;
+}
+
+#gambar_siggy_adam_caster_986532:hover > #gambar_sigil_adam_caster_986532:hover ~ #area_balap_adam_caster_986532{
+    display: inline;
+}
+
+#gambar_siggy_adam_caster_986532:hover > #gambar_sigil_adam_caster_986532:hover ~ #area_balap_adam_caster_986532 > #siput1_adam_caster_986532 {
+    position: absolute;
+    top: 0px;
+    width: 25px;
+    height: 25px;
+    background-image: var(--url-siput-1-adam-caster-986532);
+    animation: mymove_siput1_adam_caster_986532 60s linear;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+}
+#gambar_siggy_adam_caster_986532:hover > #gambar_sigil_adam_caster_986532:hover ~ #area_balap_adam_caster_986532 > #siput2_adam_caster_986532 {
+    position: absolute;
+    top: 30px;
+    width: 25px;
+    height: 25px;
+    background-image: var(--url-siput-2-adam-caster-986532);
+    animation: mymove_siput2_adam_caster_986532 60s ease;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+}
+#gambar_siggy_adam_caster_986532:hover > #gambar_sigil_adam_caster_986532:hover ~ #area_balap_adam_caster_986532 > #siput3_adam_caster_986532 {
+    position: absolute;
+    top: 60px;
+    width: 25px;
+    height: 25px;
+    background-image: var(--url-siput-3-adam-caster-986532);
+    animation: mymove_siput3_adam_caster_986532 60s ease-in;
+    animation-delay: 8s;
+    animation-fill-mode: both;
+}
+#gambar_siggy_adam_caster_986532:hover > #gambar_sigil_adam_caster_986532:hover ~ #area_balap_adam_caster_986532 > #siput4_adam_caster_986532 {
+    position: absolute;
+    top: 90px;
+    width: 25px;
+    height: 25px;
+    background-image: var(--url-siput-4-adam-caster-986532);
+    animation: mymove_siput4_adam_caster_986532 60s ease-in-out;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+}
+#gambar_siggy_adam_caster_986532:hover > #gambar_sigil_adam_caster_986532:hover ~ #area_balap_adam_caster_986532 > #siput5_adam_caster_986532 {
+    position: absolute;
+    top: 120px;
+    width: 25px;
+    height: 25px;
+    background-image: var(--url-siput-5-adam-caster-986532);
+    animation: mymove_siput5_adam_caster_986532 60s ease-out;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes mymove_siput1_adam_caster_986532 {
+    0%   {left: 0px; }
+    50%  {left: 320px; background-image: var(--url-siput-1-evo-adam-caster-986532);}
+    100% {left: 42px; top: 120px; background-image: var(--url-siput-1-evo-adam-caster-986532); transform: rotateZ(320deg);}
+}
+
+@keyframes mymove_siput2_adam_caster_986532 {
+    0%   {left:0px; transform: rotateY(0deg);}
+    40% {left:320px;background-image: var(--url-siput-2-evo-adam-caster-986532); transform: rotateY(180deg); opacity: 100%;}
+    100% {left:150px;background-image: var(--url-siput-2-evo-adam-caster-986532); transform: rotateY(180deg); opacity: 0;}
+}
+
+@keyframes mymove_siput3_adam_caster_986532 {
+    0% {left: 3px; transform: rotateZ(0deg);}
+    85% {left: 320px; background-image: var(--url-siput-3-evo-adam-caster-986532); transform: rotateZ(270deg); animation-delay: 1s;}
+    100% {left: 171px; background-image: var(--url-siput-3-evo-adam-caster-986532); transform: rotateZ(90deg);}
+}
+
+@keyframes mymove_siput4_adam_caster_986532 {
+    0% {left: 3px; top: 90px;}
+    50% {left: 320px; top:90px; background-image: var(--url-siput-4-evo-adam-caster-986532)}
+    60%{left: 320px; top:90px; background-image: var(--url-siput-4-evo-adam-caster-986532); transform: rotateY(180deg);}
+    70%{left: 280px; top:129px; background-image: var(--url-siput-4-evo-adam-caster-986532); transform: rotateY(180deg) rotateZ(335deg);}
+    100%{left: 210px; top: 99px; background-image: var(--url-siput-4-evo-adam-caster-986532); transform: rotateY(180deg) rotateZ(335deg);}
+}
+
+@keyframes mymove_siput5_adam_caster_986532 {
+    0% {left: 3px;}
+    80% {left: 320px; background-image: var(--url-siput-5-evo-adam-caster-986532); opacity: 80%;}
+    100% {animation-delay: 3s; left: 400px; background-image: var(--url-siput-5-evo-adam-caster-986532); opacity: 0;}
+}
+
+@keyframes sigil_muncul_adam_caster_986532 {
+    0% {opacity: 0%; transition: width 2s height 2s;}
+    100% {opacity: 20%;}
+}
+
+@keyframes sigil_hilang_adam_caster_986532 {
+    0% {opacity: 60%; transition: width 2s height 2s;}
+    100% {opacity: 0%;}
+}
